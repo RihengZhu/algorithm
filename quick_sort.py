@@ -1,7 +1,7 @@
 
 
 def quicksort(A,p,r):
-    if 3<r-p:
+    if 0<r-p:
         pre=median3(A,p,r)
 
         q=Partition(A,p,r)
